@@ -15,4 +15,47 @@ El análisis se basa en datos previamente tratados en la Parte 1 del desafío, d
 - Identificar los factores más importantes que influyen en el churn.
 
 ## Estructura del Proyecto
+TelecomX-Churn
 
+│
+
+├── TelecomX_ML_Churn.ipynb
+├── datos_tratados.csv
+└── README.md
+## Tecnologías utilizadas
+
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Google Colab
+
+## Modelos utilizados
+
+- Regresión Logística
+- Random Forest
+
+## Métricas de evaluación
+
+Los modelos fueron evaluados utilizando:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Matriz de confusión
+
+## Principales factores de cancelación
+
+Las variables que más influyen en la cancelación de clientes son:
+
+- Tiempo de permanencia (tenure)
+- Cargos mensuales (MonthlyCharges)
+- Tipo de contrato
+- Tipo de servicio de internet
+- Método de pago
+
+## Conclusión
+
+Los modelos desarrollados permiten identificar clientes con mayor probabilidad de cancelar el servicio. Esta información puede ayudar a Telecom X a implementar estrategias de retención y mejorar la fidelización de sus clientes.
